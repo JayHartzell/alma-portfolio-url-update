@@ -1,5 +1,5 @@
 # alma-portfolio-url-update
-Async python code that can be used to remove proxy strings embedded in portfolio url fields in Ex Libris Alma electronic portfolios.
+Async python code that can be used to remove proxy strings embedded in portfolio url fields in Ex Libris Alma electronic portfolios. Makes a ```GET``` request to pull the portfolio object, then a ```PUT``` request to send it back after modifying the url string.
 
 
 Requires a spreadsheet containing the Portfolio Id, Collection Id, and Service Id of every portfolio you want to change. You will need to type the full name of the file.
