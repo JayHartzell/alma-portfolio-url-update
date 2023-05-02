@@ -8,4 +8,4 @@ Requires a spreadsheet containing the Portfolio Id, Collection Id, and Service I
 
 Also, you will need to enter the string you wish to replace (your existing proxy string) with the desired replacement in the following line of code:
 
-```data['linking_details']['static_url'] = data['linking_details']['static_url'].replace('', '') ('string to replace', 'new string. leave blank if you just want to delete') ```
+```data['linking_details']['static_url'] = data['linking_details']['static_url'].replace('string_to_replace', 'new string. leave blank if you just want to delete') ```
